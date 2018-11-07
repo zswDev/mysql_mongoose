@@ -1,0 +1,27 @@
+{
+  "name": "mysql_mongoose",
+  "version": "1.0.0",
+  "description": "mysql_mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zswDev/mysql_mongoose.git"
+  },
+  "keywords": [
+    "mysql",
+    "mongoose",
+    "orm"
+  ],
+  "author": "zsw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zswDev/mysql_mongoose/issues"
+  },
+  "homepage": "https://github.com/zswDev/mysql_mongoose#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}
