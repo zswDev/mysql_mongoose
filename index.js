@@ -201,7 +201,7 @@ let sqlDg = (obj) => { // 先假设最后一层，{a:1,$or:[{a:1}],a:{$op:1}} //
 const find = function (table = '', query = {}, options = '') {
   let sql = 'select '
   if (typeof options === 'string' && options !== '') {
-    sql += options
+    sql += options.split(' ').join(',')
   } else {
     sql += '*'
   }
