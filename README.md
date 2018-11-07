@@ -1,7 +1,10 @@
 # mysql_mongoose
 a mysql_client js library, and mongoose like
 
-test
+test:
+
+git clone https://github.com/zswDev/mysql_mongoose.git
+
 ```javascript
 const db = requrie('mysql_mongoose')
 let [err, rows] = db.find('user',{
